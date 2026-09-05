@@ -1,751 +1,303 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <title>Hansheng Liu</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.jpg" type="image/x-icon">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="Hansheng Liu is a software engineer in the San Francisco Bay Area building reliable, high-performance systems across trading, cloud, and AI.">
+  <meta property="og:title" content="Hansheng Liu — Software Engineer">
+  <meta property="og:description" content="Building dependable systems for complex, real-world problems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hansen1030.github.io/website/">
+  <meta property="og:image" content="https://hansen1030.github.io/website/img/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hansheng Liu — Software Engineer · Trading · Cloud · AI">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://hansen1030.github.io/website/img/og-card.png">
+  <title>Hansheng Liu — Software Engineer</title>
+  <link rel="icon" href="favicon.jpg" type="image/jpeg">
   <link rel="stylesheet" href="css/main.bundle.css">
-  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
-
 <body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <!-- <div class="navbar-item is-hidden-desktop">
-        <a href="https://https://github.com/Hansen1030" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-github"></i>
-        </a>
-      </div> -->
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <!-- <div class="navbar-item">
-          <a href="https://https://github.com/Hansen1030" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
-          </a>
-        </div> -->
-      </div>
-    </div>
-  </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <section class="hero is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="img/me.jpg">
-            </figure>
-          </div>
-        </div>
-        <div class="columns has-text-centered">
-          <div class="column">
-            <h1 class="title is-1">
-              Hansheng Liu
-            </h1>
-            <h2 class="subtitle">
-              Software Development, Theoretical Computer Science, Machine Learning
-            </h2>
-            <p>
-              <a href="docs/resume.pdf" class="icon has-text-light">
-                <i class="fas fa-file"></i> <strong>Resume</strong>
-              </a>
-            </p>
-          </div>
-        </div>
+  <header class="site-header" data-header>
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Hansheng Liu, home">HL</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu" data-menu-button>
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+      <div class="nav-links" id="site-menu" data-menu>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="docs/resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a>
       </div>
-    </div>
-  </section>
+    </nav>
+  </header>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">About Me</h1>
-      <hr />
-      <p>Hi, I'm Hansheng Liu, a Master of Computer Science student at University of Illinois Urbana-Champaign. My background combines Computer Science and Mathematics. My research is in theoretical computer science, with a particular emphasis on graph algorithms. I also have experience in industry applications, especially software development. </p>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Software Engineer · SF Bay Area</p>
+        <h1>I build software<br>for <span class="gradient-text">systems that matter.</span></h1>
+        <p class="hero-summary">I’m Hansheng Liu, a software engineer working across trading systems, cloud infrastructure, and applied AI—turning complex requirements into dependable products.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="mailto:hliu.sde@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Experience</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/amazon.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Amazon</p>
-              <p class="subtitle is-6">Software Development Engineer Intern - <time datetime="2025-5">May 2025</time> - <time
-                  datetime="2-25-8">August 2025</time> </p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Amazon is an American multinational technology company engaged in e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.</p>
-            <ul>
-              <li>Implemented AI integration for an internal service, streamlining complex query process into a single-sentence input.</li>
-              <li>Adapted a tool to directly deploy local MCP servers as AWS Lambda, reducing human-hours by 90% for related tasks.</li>
-              <li>Insisted on highest coding standards, with codebase following ACBDA and full unit test coverage.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">Java</span>
-              <span class="tag">MCP Server</span>
-              <span class="tag">AWS Lambda</span>
-              <span class="tag">LLM</span>
-              <span class="tag">AI agent</span>
-            </div>
-          </div>
+      <div class="profile-stage reveal" aria-label="Portrait of Hansheng Liu">
+        <div class="profile-halo" aria-hidden="true"></div>
+        <div class="profile-frame">
+          <img src="img/me.jpg" alt="Hansheng Liu" width="674" height="646">
+        </div>
+        <div class="floating-note note-role">
+          <span>Currently</span>
+          <strong>Orchestrade</strong>
+        </div>
+        <div class="floating-note note-focus">
+          <span>Focus</span>
+          <strong>Trading · Cloud · AI</strong>
         </div>
       </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/leyan.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Leyan Technologies</p>
-              <p class="subtitle is-6">R&D Engineer - <time datetime="2018-1">June 2024</time> - <time
-                  datetime="2017-9">August 2024</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Leyan Technologies is an e-commerce smart customer service systems provider through AI technologies and automation.</p>
-            <ul>
-              <li>Architected and developed an AI framework validation system, encompassing correctness and performance testing.</li>
-              <li>Spearheaded the implementation of the web backend (Java), test-runner (Python), and database (MySQL).</li>
-              <li>Engineered a scalable, decoupled front-end & back-end architecture.</li>
-              <li>Researched integrating the newest TTS model, along with RAG, into the company's service.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">Java</span>
-              <span class="tag">MySQL</span>
-              <span class="tag">Spring Boot</span>
-              <span class="tag">LLM</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/cht.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Zhejiang Century Huatong Group</p>
-              <p class="subtitle is-6">Software Development Engineer - <time datetime="2018-1">June 2023</time> - <time
-                  datetime="2017-9">August 2023</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Zhejiang Century Huatong Group principally engaged in the development and operation of Internet games.</p>
-            <ul>
-              <li>Developed and implemented Office Automation (OA) system functions using C#, delivered and deployed all tasks on time.</li>
-              <li>Integrated Didi Taxi (Chinese Uber) into the company APP, greatly optimized the convenience of colleagues’ taxi booking and reimbursement, made it easier for the company to supervise taxi behavior.</li>
-              <li>Wrote code to read and classify more than 1,000 charts of unorganized data into forms to facilitate inquiries by colleagues.
-              </li>
-              <li>Took full ownership of the database system (MySQL), ensuring data integrity, security, and optimal performance.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">C#</span>
-              <span class="tag">.net core</span>
-              <span class="tag">MySQL</span>
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">JavaScript</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/IML.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Illinois Mathematics Lab</p>
-              <p class="subtitle is-6">Researcher - <time datetime="2018-1">January 2023</time> - <time
-                  datetime="2017-9">December 2023</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <p>The Illinois Mathematics Lab (formerly Illinois Geometry Lab) fosters opportunities for University of Illinois undergraduates in mathematical research, experimentation, and visualization.</p>
-            <ul>
-              <li>Wrote a simulation system in C++, used fast algorithms and multithreading, reduced more than 80% of the original runtime.</li>
-              <li>Mined frequent patterns and applied multiple deep-learning algorithms to gain insights of the data.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">C++</span>
-              <span class="tag">Graph Algorithms</span>
-              <span class="tag">Python</span>
-              <span class="tag">Deep Learning</span>
-              <span class="tag">Data Mining</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/CDS.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Siebel School of Computing and Data Science</p>
-              <p class="subtitle is-6">Teaching Assistant - <time datetime="2018-1">August 2023</time> - <time
-                  datetime="2017-9">present</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Siebel School of Computing and Data Science is TOP 5 CS department in the world. </p>
-            <ul>
-              <li>CS 450 - Numerical Analysis.</li>
-              <li>CS 128 - Introduction to Computer Science II.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">C++</span>
-              <span class="tag">Python</span>
-              <span class="tag">Numpy</span>
-              <span class="tag">Lecturing</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/shengqu.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Shengqu Games</p>
-              <p class="subtitle is-6">IT Intern - <time datetime="2018-1">June 2021</time> - <time
-                  datetime="2017-9">August 2021</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Shengqu Games is a leading online game developer, operator and publisher worldwide. </p>
-            <ul>
-              <li>Managed IT-related issues for the entire company, serving and communicating with over 1,000 people.</li>      
-            </ul>
-            <div class="tags">
-              <span class="tag">Computer Hardware</span>
-              <span class="tag">Server</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Projects</h1>
-      <hr />
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Chat Master</p>
-                <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/CM0.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">What-if Olympics</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-2-modal" src="img/wo1.png">
-                </figure>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Chrome extension for text summarization</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/chrome.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">More coming soon!</p>
-                <!-- <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-5-modal" src="img/project-5-cover.png">
-                </figure> -->
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div class="scroll-cue" aria-hidden="true"><span></span> Scroll to discover</div>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Research</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Topics on Length-constrained Minimum Spanning Tree</p>
-              <p class="subtitle is-6">Ongoing</p>
-            </div>
-          </div>
-          <div class="content">
-            <p>First Author</p>
-            <ul>
-              <li>Advised by <a href="https://rheaj99.github.io/">Rhea Jain</a>
-              and Professor <a href="https://chekuri.cs.illinois.edu/">Chandra Chekuri</a></li>
-              <li><a href="">arXiv</a>, <a href="">GitHub</a></li>
-            </ul>
-            <div class="tags">
-              <span class="tag">Graph Algorithms</span>
-              <span class="tag">Randomized Algorithms</span>
-            </div>
-          </div>
-        </div>
+    <section class="impact section-pad" aria-labelledby="impact-title">
+      <div class="section-intro reveal">
+        <p class="section-kicker">Selected impact</p>
+        <h2 id="impact-title">Measured in outcomes,<br>not just output.</h2>
       </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">COSPLAY: Chain of Summary with persistently decaying entropy in long context RAG</p>
-              <p class="subtitle is-6">Ongoing</p>
-            </div>
-          </div>
-          <div class="content">
-            <p>First Author</p>
-            <ul>
-              <li>Advised by Professor <a href="https://scholar.google.com/citations?user=Kv9AbjMAAAAJ&hl=en">Jiawei Han</a></li>
-              <li><a href="">arXiv</a>, <a href="">GitHub</a></li>
-            </ul>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">LLM</span>
-              <span class="tag">RAG</span>
-              <span class="tag">Text Mining</span>
-            </div>
-          </div>
-        </div>
+      <div class="metric-grid">
+        <article class="metric-card reveal">
+          <strong>90<span>%</span></strong>
+          <p>less manual effort through a natural-language interface at Amazon.</p>
+        </article>
+        <article class="metric-card reveal">
+          <strong>100<span>%</span></strong>
+          <p>test coverage across decoupled Java components using JUnit and Mockito.</p>
+        </article>
+        <article class="metric-card reveal">
+          <strong>8K<span>+</span></strong>
+          <p>concurrent connections supported by a distributed chat service.</p>
+        </article>
+        <article class="metric-card reveal">
+          <strong>80<span>%</span></strong>
+          <p>runtime reduction in a multithreaded C++ research simulation.</p>
+        </article>
       </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Scale-free First-Passage Percolation</p>
-              <p class="subtitle is-6">2023</p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Student Author</p>
-            <ul>
-              <li>Mentored by Professor <a href="https://scholar.google.com/citations?user=AMm0KGYAAAAJ&hl=en">Partha S. Dey</a></li>
-              <li><a href="docs/Scale_Free.pdf">Report</a>, <a href="https://github.com/Hansen1030/Scale-free_FPP">GitHub</a></li>
-            </ul>
-            <div class="tags">
-              <span class="tag">C++</span>
-              <span class="tag">Python</span>
-              <span class="tag">Graph Algorithms</span>
-              <span class="tag">Greedy Algorithms</span>
-              <span class="tag">Stochastic Processes</span>
-              <span class="tag">Probability</span>
-              <span class="tag">Deep Learning</span>
-              <span class="tag">Data Mining</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Rumor Propagation on a Spread-out Line Graph</p>
-              <p class="subtitle is-6">2023</p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Student Authot</p>
-            <ul>
-              <li>Mentored by Professor <a href="https://scholar.google.com/citations?user=AMm0KGYAAAAJ&hl=en">Partha S. Dey</a></li>
-              <li><a href="docs/Rumor_prop.pdf">Report</a>, <a href="https://github.com/yyang1729/Rumor-Propagation-of-Lattice-Graphs">GitHub</a></li>
-            </ul>
-            <div class="tags">
-              <span class="tag">C++</span>
-              <span class="tag">Graph Algorithms</span>
-              <span class="tag">Stochastic Processes</span>
-              <span class="tag">Probability</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Education</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/IML.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">University of Illinois Urbana-Champaign</p>
-              <p class="subtitle is-6">Master of Computer Science - <time datetime="2016-9">August 2024</time> - <time
-                  datetime="2019-9">May 2026</time></p>
-            </div>
-          </div>
-          <div class="content">
-            TOP 5 CS program. 
-            <ul>
-              <li>Full scholarships.</li>
-            </ul>
-          </div>
-        </div>
+    <section class="work section-pad" id="work" aria-labelledby="work-title">
+      <div class="section-intro reveal">
+        <p class="section-kicker">Experience</p>
+        <h2 id="work-title">Engineering from the interface<br>to the infrastructure.</h2>
       </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="img/IML.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">University of Illinois Urbana-Champaign</p>
-              <p class="subtitle is-6">Bachelor of Science in Computer Science & Mathematics - <time datetime="2015-9">August 2020</time> - <time
-                  datetime="2015-9">May 2024</time></p>
-            </div>
-          </div>
-          <div class="content">
-            TOP 5 CS program. 
-            <ul>
-              <li>Highest Distinction. </li>
-              <li>Triple major in Economics. </li>
-              <li>Minor in Statistics, Computational Sci. & Engr.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Contact</h1>
-      <hr />
-      <nav class="level">
-        <div class="level-item has-text-centered">
+      <article class="feature-card feature-dark reveal">
+        <div class="feature-topline">
+          <p class="feature-number">01</p>
+          <p class="feature-date">Apr 2026 — Present</p>
+        </div>
+        <div class="feature-grid">
           <div>
-            <a href="https://github.com/Hansen1030" class="icon is-large">
-              <i class="fab fa-2x fa-github"></i>
-            </a>
-            <p class="heading"><a href="https://github.com/Hansen1030">github.com/Hansen1030</a></p>
+            <p class="company">Orchestrade · San Mateo, CA</p>
+            <h3>Software Development Engineer</h3>
+          </div>
+          <div class="feature-detail">
+            <p>Building end-to-end capabilities for a multi-asset trading and risk platform across desktop UI, market data, application services, persistence, and databases.</p>
+            <ul>
+              <li>Translate physical and financial energy-trading requirements into production pricing and settlement logic.</li>
+              <li>Deliver configurable precision, date/time-zone workflows, and durable cross-layer features in a mature enterprise codebase.</li>
+              <li>Maintain consistent behavior across SQL Server, PostgreSQL, and Oracle.</li>
+            </ul>
+            <div class="chip-row" aria-label="Technologies"><span>C#</span><span>.NET</span><span>SQL Server</span><span>PostgreSQL</span><span>Oracle</span></div>
           </div>
         </div>
-        <div class="level-item has-text-centered">
+        <div class="signal-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </article>
+
+      <article class="feature-card feature-blue reveal">
+        <div class="feature-topline">
+          <p class="feature-number">02</p>
+          <p class="feature-date">May — Aug 2025</p>
+        </div>
+        <div class="feature-grid">
           <div>
-            <a href="https://www.instagram.com/hansenliu1030" class="icon is-large">
-              <i class="fab fa-2x fa-instagram"></i>
-            </a>
-            <p class="heading"><a href="https://www.instagram.com/hansenliu1030">instagram</a></p>
+            <p class="company">Amazon · Bellevue, WA</p>
+            <h3>Software Development Engineer Intern</h3>
+          </div>
+          <div class="feature-detail">
+            <p>Made internal systems easier to use and easier to scale with natural-language interfaces, serverless architecture, and high-confidence testing.</p>
+            <ul>
+              <li>Converted plain-language questions into structured API calls, reducing manual effort by 90%.</li>
+              <li>Refactored local MCP servers into authenticated, auto-scaling AWS Lambda functions.</li>
+              <li>Secured stakeholder alignment through technical design documents and tradeoff analysis.</li>
+            </ul>
+            <div class="chip-row" aria-label="Technologies"><span>Java</span><span>AWS Lambda</span><span>MCP</span><span>JUnit</span><span>Mockito</span></div>
           </div>
         </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="mailto:hansen1030@gmail.com" class="icon is-large">
-              <i class="fas fa-2x fa-envelope"></i>
-            </a>
-            <p class="heading"><a href="mailto:hl58@illinois.edu">School</a> |
-              <a href="mailto:hliu.csjob@gmail.com">Work</a></p>
+        <div class="cloud-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+      </article>
+
+      <div class="timeline reveal" aria-label="Earlier experience">
+        <article>
+          <p class="timeline-date">2024</p>
+          <div><h3>Leyan Technologies</h3><p>R&amp;D Engineer · AI validation platform, Spring Boot, Python, MySQL</p></div>
+        </article>
+        <article>
+          <p class="timeline-date">2023</p>
+          <div><h3>Zhejiang Century Huatong Group</h3><p>Software Development Engineer · Enterprise automation and API integration</p></div>
+        </article>
+        <article>
+          <p class="timeline-date">2023</p>
+          <div><h3>Illinois Mathematics Lab</h3><p>Researcher · High-performance simulation, data mining, deep learning</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro reveal">
+        <p class="section-kicker">Project highlights</p>
+        <h2 id="projects-title">Ideas, engineered<br>all the way through.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-hr reveal">
+          <div class="project-copy">
+            <p class="project-index">01 · Distributed systems</p>
+            <h3>HR Onboarding Portal</h3>
+            <p>A microservices onboarding platform with centralized discovery, routing, configuration, event-driven communication, secure authentication, and cloud storage.</p>
+            <div class="chip-row"><span>Spring Cloud</span><span>Kafka</span><span>React</span><span>AWS</span></div>
           </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://www.linkedin.com/in/hansheng-liu-188a29239/" class="icon is-large">
-              <i class="fab fa-2x fa-linkedin-in"></i>
-            </a>
-            <p class="heading"><a href="https://www.linkedin.com/in/hansheng-liu-188a29239/">linkedin</a></p>
+          <div class="architecture" aria-hidden="true">
+            <div class="arch-node arch-main">Gateway</div>
+            <div class="arch-node arch-a">Auth</div>
+            <div class="arch-node arch-b">People</div>
+            <div class="arch-node arch-c">Docs</div>
+            <div class="arch-line line-a"></div><div class="arch-line line-b"></div><div class="arch-line line-c"></div>
           </div>
-        </div>
-      </nav>
-    </div>
-  </section>
+        </article>
 
-  <!-- Modals -->
-  <div id="project-1-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Chat Master</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div id="project-1-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/CM1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/CM2.png">
-          </figure>
-        </div>
-
-        <div class="content">
-
-          <p>Chat Master is an interactive chatbot utilizing the OpenAI API to enhance the conversational abilities of users.</p>
-          <p><a href="https://github.com/Hansen1030/CS222">GitHub</a></p>
-
-          <div class="tags">
-            <span class="tag">NGINX</span>
-            <span class="tag">React</span>
-            <span class="tag">Gunicorn</span>
-            <span class="tag">Python</span>
+        <article class="project-card project-commerce reveal">
+          <div class="project-copy">
+            <p class="project-index">02 · Full stack</p>
+            <h3>Online Shopping Application</h3>
+            <p>A secure RESTful commerce platform with dynamic queries, role-based access, and transaction-safe inventory.</p>
+            <div class="chip-row"><span>Spring Boot</span><span>Angular</span><span>Hibernate</span><span>MySQL</span></div>
           </div>
-
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-2-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">What-if Olympics</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-
-        <div class="content">
-
-          <p>What-if Olympics is a multi-paged website allowing users to search, insert, delete, and apply customized rules with over 10k records.</p>
-          <p><a href="https://github.com/Hansen1030/What-if-Olympic">GitHub</a></p>
-
-          <div class="tags">
-            <span class="tag">MySQL</span>
-            <span class="tag">Python</span>
-            <span class="tag">CSS</span>
-            <span class="tag">HTML</span>
-            <span class="tag">JS</span>
-            <span class="tag">Google Cloud Platform</span>
+          <div class="commerce-ui" aria-hidden="true">
+            <div class="commerce-bar"><i></i><i></i><i></i></div>
+            <div class="commerce-content"><span></span><span></span><span></span></div>
           </div>
+        </article>
 
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-3-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Chrome extension for text summarization</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <!-- <div id="project-3-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div> -->
-
-        <div class="content">
-          <p>This extension can summarize the text on the webpage, save users more than 60% of their times in average.</p>
-          <div class="tags">
-            <span class="tag">Python</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">HTML</span>
-            <span class="tag">Django</span>
+        <article class="project-card project-chat reveal">
+          <div class="project-copy">
+            <p class="project-index">03 · Performance</p>
+            <h3>Chat Master</h3>
+            <p>A distributed chat service built behind NGINX and load-tested beyond 8,000 concurrent connections.</p>
+            <a class="text-link" href="https://github.com/Hansen1030/CS222" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
           </div>
+          <img src="img/CM0.png" alt="Chat Master application interface" width="1200" height="630" loading="lazy">
+        </article>
+      </div>
+    </section>
+
+    <section class="research section-pad" id="research" aria-labelledby="research-title">
+      <div class="section-intro reveal">
+        <p class="section-kicker">Research</p>
+        <h2 id="research-title">Theory with a path<br>to practice.</h2>
+        <p class="section-lede">My work explores graph algorithms, data structures, stochastic processes, and long-context retrieval.</p>
+      </div>
+      <div class="research-list">
+        <article class="research-item reveal">
+          <p class="research-year">2025</p>
+          <div><h3>Packing Low-diameter Spanning Trees</h3><p>First author · Advised by Rhea Jain</p></div>
+          <p class="research-topics">Graph algorithms · Randomization · Approximation</p>
+        </article>
+        <article class="research-item reveal">
+          <p class="research-year">2025</p>
+          <div><h3>Hop-constrained Shortest Path Queries in Planar Graphs</h3><p>First author · Advised by Prof. Jeff Erickson</p></div>
+          <p class="research-topics">Data structures · Graph algorithms</p>
+        </article>
+        <article class="research-item reveal">
+          <p class="research-year">2025</p>
+          <div><h3>Length-constrained Minimum Spanning Tree</h3><p>First author · Advised by Rhea Jain &amp; Prof. Chandra Chekuri</p></div>
+          <p class="research-topics">Approximation · Derandomization</p>
+        </article>
+        <article class="research-item reveal">
+          <p class="research-year">2024</p>
+          <div><h3>Chain of Summary with Persistently Decaying Entropy in RAG</h3><p>First author · Advised by Prof. Jiawei Han</p></div>
+          <p class="research-topics">Text mining · Post-RAG · LLM</p>
+        </article>
+        <article class="research-item reveal">
+          <p class="research-year">2023</p>
+          <div><h3>Scale-Free First-Passage Percolation</h3><p>2024 IML Research Award</p></div>
+          <a class="round-link" href="docs/Scale_Free.pdf" aria-label="Read Scale-Free First-Passage Percolation report">↗</a>
+        </article>
+        <article class="research-item reveal">
+          <p class="research-year">2023</p>
+          <div><h3>Rumor Propagation on a Spread-out Line Graph</h3><p>2023 IGL Research Award</p></div>
+          <a class="round-link" href="docs/Rumor_prop.pdf" aria-label="Read Rumor Propagation report">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">Computer science,<br>grounded in mathematics.</h2>
+          <p>I earned both my Master of Computer Science and my B.S. in Computer Science &amp; Mathematics from the University of Illinois Urbana-Champaign. I care about precise thinking, durable architecture, and products that feel simple despite the complexity underneath.</p>
+          <a class="button button-primary" href="docs/resume.pdf" target="_blank" rel="noopener">View full résumé <span aria-hidden="true">↗</span></a>
         </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-4-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-4-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
+        <div class="education-stack reveal">
+          <article>
+            <p>2025</p>
+            <h3>Master of Computer Science</h3>
+            <span>UIUC · GPA 3.74 · Full tuition scholarship</span>
+          </article>
+          <article>
+            <p>2024</p>
+            <h3>B.S. Computer Science &amp; Mathematics</h3>
+            <span>UIUC · GPA 3.96 · Highest Distinction</span>
+          </article>
+          <article class="education-detail">
+            <p>Also studied</p>
+            <h3>Economics · Statistics · Computational Science &amp; Engineering</h3>
+          </article>
         </div>
+      </div>
+    </section>
 
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
+    <section class="contact section-pad" aria-labelledby="contact-title">
+      <div class="contact-card reveal">
+        <p class="section-kicker">Let’s build something thoughtful.</p>
+        <h2 id="contact-title">Have a hard problem?<br><span>Let’s talk.</span></h2>
+        <div class="contact-actions">
+          <a class="button button-light" href="mailto:hliu.sde@gmail.com">hliu.sde@gmail.com <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="https://www.linkedin.com/in/hliusde" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="https://github.com/Hansen1030" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
         </div>
+      </div>
+    </section>
+  </main>
 
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-5-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-5-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-6-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-6-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
-          <i class="fab fa-github"></i> <strong>devfolio</strong></a>
-      </p>
-    </div>
+  <footer class="site-footer">
+    <p>© <span data-year></span> Hansheng Liu</p>
+    <p>Designed with clarity. Built with care.</p>
+    <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
   </footer>
 
   <script src="js/bundle.js"></script>
 </body>
-
 </html>
